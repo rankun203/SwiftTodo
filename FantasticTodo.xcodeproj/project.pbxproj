@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B12907971BC439AE00339766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12907961BC439AE00339766 /* AppDelegate.swift */; };
+		B129079A1BC439AE00339766 /* FantasticTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B12907981BC439AE00339766 /* FantasticTodo.xcdatamodeld */; };
+		B129079C1BC439AE00339766 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129079B1BC439AE00339766 /* MasterViewController.swift */; };
+		B129079E1BC439AE00339766 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129079D1BC439AE00339766 /* DetailViewController.swift */; };
+		B12907A11BC439AE00339766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B129079F1BC439AE00339766 /* Main.storyboard */; };
+		B12907A31BC439AE00339766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12907A21BC439AE00339766 /* Assets.xcassets */; };
+		B12907A61BC439AE00339766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12907A41BC439AE00339766 /* LaunchScreen.storyboard */; };
+		B12907B11BC439AE00339766 /* FantasticTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12907B01BC439AE00339766 /* FantasticTodoTests.swift */; };
+		B12907BC1BC439AE00339766 /* FantasticTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12907BB1BC439AE00339766 /* FantasticTodoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B12907AD1BC439AE00339766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B129078B1BC439AE00339766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12907921BC439AE00339766;
+			remoteInfo = FantasticTodo;
+		};
+		B12907B81BC439AE00339766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B129078B1BC439AE00339766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12907921BC439AE00339766;
+			remoteInfo = FantasticTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B12907931BC439AE00339766 /* FantasticTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12907961BC439AE00339766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B12907991BC439AE00339766 /* FantasticTodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FantasticTodo.xcdatamodel; sourceTree = "<group>"; };
+		B129079B1BC439AE00339766 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B129079D1BC439AE00339766 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B12907A01BC439AE00339766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B12907A21BC439AE00339766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B12907A51BC439AE00339766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B12907A71BC439AE00339766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12907AC1BC439AE00339766 /* FantasticTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12907B01BC439AE00339766 /* FantasticTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticTodoTests.swift; sourceTree = "<group>"; };
+		B12907B21BC439AE00339766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12907B71BC439AE00339766 /* FantasticTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12907BB1BC439AE00339766 /* FantasticTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticTodoUITests.swift; sourceTree = "<group>"; };
+		B12907BD1BC439AE00339766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B12907901BC439AE00339766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12907A91BC439AE00339766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12907B41BC439AE00339766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B129078A1BC439AE00339766 = {
+			isa = PBXGroup;
+			children = (
+				B12907951BC439AE00339766 /* FantasticTodo */,
+				B12907AF1BC439AE00339766 /* FantasticTodoTests */,
+				B12907BA1BC439AE00339766 /* FantasticTodoUITests */,
+				B12907941BC439AE00339766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B12907941BC439AE00339766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B12907931BC439AE00339766 /* FantasticTodo.app */,
+				B12907AC1BC439AE00339766 /* FantasticTodoTests.xctest */,
+				B12907B71BC439AE00339766 /* FantasticTodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B12907951BC439AE00339766 /* FantasticTodo */ = {
+			isa = PBXGroup;
+			children = (
+				B12907961BC439AE00339766 /* AppDelegate.swift */,
+				B129079B1BC439AE00339766 /* MasterViewController.swift */,
+				B129079D1BC439AE00339766 /* DetailViewController.swift */,
+				B129079F1BC439AE00339766 /* Main.storyboard */,
+				B12907A21BC439AE00339766 /* Assets.xcassets */,
+				B12907A41BC439AE00339766 /* LaunchScreen.storyboard */,
+				B12907A71BC439AE00339766 /* Info.plist */,
+				B12907981BC439AE00339766 /* FantasticTodo.xcdatamodeld */,
+			);
+			path = FantasticTodo;
+			sourceTree = "<group>";
+		};
+		B12907AF1BC439AE00339766 /* FantasticTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B12907B01BC439AE00339766 /* FantasticTodoTests.swift */,
+				B12907B21BC439AE00339766 /* Info.plist */,
+			);
+			path = FantasticTodoTests;
+			sourceTree = "<group>";
+		};
+		B12907BA1BC439AE00339766 /* FantasticTodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B12907BB1BC439AE00339766 /* FantasticTodoUITests.swift */,
+				B12907BD1BC439AE00339766 /* Info.plist */,
+			);
+			path = FantasticTodoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B12907921BC439AE00339766 /* FantasticTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12907C01BC439AE00339766 /* Build configuration list for PBXNativeTarget "FantasticTodo" */;
+			buildPhases = (
+				B129078F1BC439AE00339766 /* Sources */,
+				B12907901BC439AE00339766 /* Frameworks */,
+				B12907911BC439AE00339766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasticTodo;
+			productName = FantasticTodo;
+			productReference = B12907931BC439AE00339766 /* FantasticTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B12907AB1BC439AE00339766 /* FantasticTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12907C31BC439AE00339766 /* Build configuration list for PBXNativeTarget "FantasticTodoTests" */;
+			buildPhases = (
+				B12907A81BC439AE00339766 /* Sources */,
+				B12907A91BC439AE00339766 /* Frameworks */,
+				B12907AA1BC439AE00339766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B12907AE1BC439AE00339766 /* PBXTargetDependency */,
+			);
+			name = FantasticTodoTests;
+			productName = FantasticTodoTests;
+			productReference = B12907AC1BC439AE00339766 /* FantasticTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B12907B61BC439AE00339766 /* FantasticTodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12907C61BC439AE00339766 /* Build configuration list for PBXNativeTarget "FantasticTodoUITests" */;
+			buildPhases = (
+				B12907B31BC439AE00339766 /* Sources */,
+				B12907B41BC439AE00339766 /* Frameworks */,
+				B12907B51BC439AE00339766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B12907B91BC439AE00339766 /* PBXTargetDependency */,
+			);
+			name = FantasticTodoUITests;
+			productName = FantasticTodoUITests;
+			productReference = B12907B71BC439AE00339766 /* FantasticTodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B129078B1BC439AE00339766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Kun;
+				TargetAttributes = {
+					B12907921BC439AE00339766 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B12907AB1BC439AE00339766 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B12907921BC439AE00339766;
+					};
+					B12907B61BC439AE00339766 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B12907921BC439AE00339766;
+					};
+				};
+			};
+			buildConfigurationList = B129078E1BC439AE00339766 /* Build configuration list for PBXProject "FantasticTodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B129078A1BC439AE00339766;
+			productRefGroup = B12907941BC439AE00339766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B12907921BC439AE00339766 /* FantasticTodo */,
+				B12907AB1BC439AE00339766 /* FantasticTodoTests */,
+				B12907B61BC439AE00339766 /* FantasticTodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B12907911BC439AE00339766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12907A61BC439AE00339766 /* LaunchScreen.storyboard in Resources */,
+				B12907A31BC439AE00339766 /* Assets.xcassets in Resources */,
+				B12907A11BC439AE00339766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12907AA1BC439AE00339766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12907B51BC439AE00339766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B129078F1BC439AE00339766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12907971BC439AE00339766 /* AppDelegate.swift in Sources */,
+				B129079A1BC439AE00339766 /* FantasticTodo.xcdatamodeld in Sources */,
+				B129079C1BC439AE00339766 /* MasterViewController.swift in Sources */,
+				B129079E1BC439AE00339766 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12907A81BC439AE00339766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12907B11BC439AE00339766 /* FantasticTodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12907B31BC439AE00339766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12907BC1BC439AE00339766 /* FantasticTodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B12907AE1BC439AE00339766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12907921BC439AE00339766 /* FantasticTodo */;
+			targetProxy = B12907AD1BC439AE00339766 /* PBXContainerItemProxy */;
+		};
+		B12907B91BC439AE00339766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12907921BC439AE00339766 /* FantasticTodo */;
+			targetProxy = B12907B81BC439AE00339766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B129079F1BC439AE00339766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12907A01BC439AE00339766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B12907A41BC439AE00339766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12907A51BC439AE00339766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B12907BE1BC439AE00339766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B12907BF1BC439AE00339766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B12907C11BC439AE00339766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FantasticTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rankun.test.swift.FantasticTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B12907C21BC439AE00339766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FantasticTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rankun.test.swift.FantasticTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B12907C41BC439AE00339766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FantasticTodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rankun.test.swift.FantasticTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasticTodo.app/FantasticTodo";
+			};
+			name = Debug;
+		};
+		B12907C51BC439AE00339766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FantasticTodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rankun.test.swift.FantasticTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasticTodo.app/FantasticTodo";
+			};
+			name = Release;
+		};
+		B12907C71BC439AE00339766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FantasticTodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rankun.test.swift.FantasticTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FantasticTodo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B12907C81BC439AE00339766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FantasticTodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rankun.test.swift.FantasticTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FantasticTodo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B129078E1BC439AE00339766 /* Build configuration list for PBXProject "FantasticTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12907BE1BC439AE00339766 /* Debug */,
+				B12907BF1BC439AE00339766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12907C01BC439AE00339766 /* Build configuration list for PBXNativeTarget "FantasticTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12907C11BC439AE00339766 /* Debug */,
+				B12907C21BC439AE00339766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B12907C31BC439AE00339766 /* Build configuration list for PBXNativeTarget "FantasticTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12907C41BC439AE00339766 /* Debug */,
+				B12907C51BC439AE00339766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B12907C61BC439AE00339766 /* Build configuration list for PBXNativeTarget "FantasticTodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12907C71BC439AE00339766 /* Debug */,
+				B12907C81BC439AE00339766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B12907981BC439AE00339766 /* FantasticTodo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B12907991BC439AE00339766 /* FantasticTodo.xcdatamodel */,
+			);
+			currentVersion = B12907991BC439AE00339766 /* FantasticTodo.xcdatamodel */;
+			path = FantasticTodo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B129078B1BC439AE00339766 /* Project object */;
+}
